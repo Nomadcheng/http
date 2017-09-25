@@ -21,4 +21,6 @@ document.cookie = 'name=aaa; path=/; domain=domain; secure';
 //不同键值对之间用'; '分隔。通过解析获得需要的值
 ```
 
-## cookie的操作工具函数
+## 封装cookie操作的函数
+
+[cookieUtil](https://github.com/Nomadcheng/jsCoding/blob/master/javascriptDOM/cookieUtil.js)
