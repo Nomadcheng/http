@@ -2,7 +2,7 @@
 
 - cookie是wenb浏览器存储的少量数据，最早设计为服务器端使用，作为HTTP协议的扩展实现，cookie数据会自动在浏览器和服务器之间传输
 - 通过读写cookie检测是否支持
-- cocookie属性有name,value,max-age,path,domain,secure
+- cookie属性有name,value,max-age,path,domain,secure
 - cookie默认有效期为浏览器会话，一旦用户关闭浏览器，数据就丢失，通过设置max-age=secondess属性告诉浏览器cookie的有效期
 - cookie作用域通过文档源和文档路径来确定，通过path和domain进行配置，web页面同目录或子目录文档都可访问
 - 通过cookie保存数据的方法为：为document.cookie设置一个符合目标的字符串如下
